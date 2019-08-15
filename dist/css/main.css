@@ -101,7 +101,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/ryan-hutton-Jztmx9yqjBw-unsplash.jpg);
+    background: url(../img/starlight.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center; }
@@ -238,16 +238,6 @@ main {
   color: #fff;
   height: 40px; }
 
-#contact-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding: 0.5rem;
-  background: #2b2b2b;
-  color: #fff;
-  height: 40px; }
-
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
@@ -289,7 +279,11 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 3rem; }
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 15vh; }
   .projects {
     grid-template-columns: 1fr; } }
